@@ -121,7 +121,8 @@
 				"tier": "Standard"
 			},
 			"properties": {
-				"publicNetworkAccess": "Disabled"
+				"publicNetworkAccess": "Disabled",
+				"allowBlobPublicAccess": false
 			}
 		},
 		{
