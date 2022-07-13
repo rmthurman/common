@@ -113,7 +113,7 @@
 		{
 			"name": "[variables('storageAccountName')]",
 			"type": "Microsoft.Storage/storageAccounts",
-			"apiVersion": "2019-04-01",
+			"apiVersion": "2021-09-01",
 			"location": "[parameters('location')]",
 			"kind": "StorageV2",
 			"sku": {
@@ -121,8 +121,7 @@
 				"tier": "Standard"
 			},
 			"properties": {
-				"allowBlobPublicAccess":false,
-				"supportsHttpsTrafficOnly": true
+				"publicNetworkAccess": "Disabled"
 			}
 		},
 		{
