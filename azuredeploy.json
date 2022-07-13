@@ -121,12 +121,7 @@
 				"tier": "Standard"
 			},
 			"properties": {
-				"networkAcls": {
-					"bypass": "AzureServices",
-					"virtualNetworkRules": [],
-					"ipRules": [],
-					"defaultAction": "Deny"
-				},
+				"allowBlobPublicAccess":false,
 				"supportsHttpsTrafficOnly": true
 			}
 		},
