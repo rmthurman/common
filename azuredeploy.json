@@ -120,9 +120,24 @@
                 "name": "[parameters('storageAccountType')]",
                 "tier": "Standard"
             },
-			"properties": {
-                "publicNetworkAccess": "Disabled"
-            }
+            "properties": {
+                "networkAcls": {
+                    "bypass": "AzureServices",
+                    "virtualNetworkRules": [],
+                    "ipRules": [],
+                    "defaultAction": "Deny"
+                },
+                "supportsHttpsTrafficOnly": true,
+                "encryption": {
+                    "services": {
+                        "file": {
+                            "enabled": true
+                        },
+                        "blob": {
+                            "enabled": true
+                        }
+                    },
+                    "keySource": "Microsoft.Storage"
         },
         {
             "apiVersion": "2016-08-01",
