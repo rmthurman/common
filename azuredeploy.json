@@ -119,6 +119,9 @@
             "sku": {
                 "name": "[parameters('storageAccountType')]",
                 "tier": "Standard"
+            },
+			"properties": {
+                "publicNetworkAccess": "Disabled"
             }
         },
         {
