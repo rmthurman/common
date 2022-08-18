@@ -4,7 +4,7 @@
   "parameters": {
     "resourcePrefix": {
       "type": "string",
-      "defaultValue": "jfk",
+      "defaultValue": "tax",
       "metadata": {
         "description": "Prefix for all resources created by this template"
       }
