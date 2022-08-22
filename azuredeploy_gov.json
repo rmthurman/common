@@ -46,7 +46,7 @@
     },
     "searchServiceAndCognitiveServicesLocation": {
       "type": "string",
-      "defaultValue": "US Gov. Virginia",
+      "defaultValue": "US Gov Virginia",
       "allowedValues": [
         "South Africa North",
         "East Asia",
@@ -77,7 +77,7 @@
         "West US",
         "West US 2",
         "West US 3",
-        "US Gov. Virginia"
+        "US Gov Virginia"
       ],
       "metadata": {
         "description": "Location where the Azure Search service and Cognitive Services account will be deployed."
